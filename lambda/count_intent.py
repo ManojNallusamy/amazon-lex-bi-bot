@@ -134,7 +134,13 @@ def count_intent_handler(intent_request, session_attributes):
     else:
         response_string = "There were {} {}".format(count, COUNT_PHRASE)
 
-    response_string += " in {}".format(slot_values[slot_key])
+    if slot_values["event_date"] is not None:
+        response_string += " on {}".format(slot_values["event_date"])
+
+    if slot_values["dimension"] is not None:
+        response_string += " for {} {}".format(
+            slot_values["dimension"], slot_values["entity_id"]
+        )
 
     return helpers.close(
         session_attributes,
