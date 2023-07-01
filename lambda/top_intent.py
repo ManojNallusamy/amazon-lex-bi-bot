@@ -23,8 +23,8 @@ import bibot_helpers as helpers
 import bibot_userexits as userexits
 
 # SELECT statement for Top query
-TOP_SELECT  = "SELECT {}, SUM(ie.revenue) total_revenue FROM invoice_events ie  "
-TOP_WHERE   = " WHERE year = {} AND month = {} AND day = {}" 
+TOP_SELECT  = "SELECT {}, SUM(ie.revenue) total_revenue FROM \"hackathon\".\"invoice_events\" ie  "
+TOP_WHERE   = " WHERE year = '{}' AND month = '{}' AND day = '{}'" 
 TOP_ORDERBY = " GROUP BY {} ORDER BY total_revenue desc" 
 TOP_DEFAULT_COUNT = '5'
 
