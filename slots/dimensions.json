@@ -5,33 +5,33 @@
     "enumerationValues": [
         {
             "synonyms": [
-                "namespaces"
+                "namespace"
             ], 
-            "value": "namespace"
+            "value": "namespaces"
         }, 
         {
             "synonyms": [
-                "types"
+                "type"
             ], 
-            "value": "type"
+            "value": "types"
         }, 
         {
             "synonyms": [
-                "invoices"
+                "invoice"
             ], 
-            "value": "invoice"
+            "value": "invoices"
         }, 
         {
             "synonyms": [
-                "accounts"
+                "account"
             ], 
-            "value": "account"
+            "value": "accounts"
         }, 
         {
             "synonyms": [
-                "bills"
+                "bill"
             ], 
-            "value": "bill"
+            "value": "bills"
         }, 
         {
             "synonyms": [
@@ -41,15 +41,15 @@
         }, 
         {
             "synonyms": [
-                "months"
+                "month"
             ], 
-            "value": "month"
+            "value": "months"
         }, 
         {
             "synonyms": [
-                "days"
+                "day"
             ], 
-            "value": "day"
+            "value": "days"
         }
     ]
 }
