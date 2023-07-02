@@ -22,11 +22,11 @@ TOP_RESOLUTION = 1
 SLOT_CONFIG = {
     # custom slot : TOP_res
     'event_namespace': {'type': TOP_RESOLUTION, 'remember': True,  'error': 'I couldn\'t find an namespace called "{}".'},
-    'event_type': {'type': TOP_RESOLUTION, 'remember': True,  'error': 'I couldn\'t find a type called "{}".'},
-    'entity_id': {'type': ORIGINAL_VALUE, 'remember': True},
+    'event_type': {'type': TOP_RESOLUTION, 'remember': False,  'error': 'I couldn\'t find a type called "{}".'},
+    'entity_id': {'type': ORIGINAL_VALUE, 'remember': False},
     'event_date': {'type': ORIGINAL_VALUE, 'remember': True},
     'count': {'type': ORIGINAL_VALUE, 'remember': True},
-    'dimension': {'type': ORIGINAL_VALUE, 'remember': True},
+    'dimension': {'type': ORIGINAL_VALUE, 'remember': False},
 }
 
 DIMENSIONS = {
