@@ -109,7 +109,7 @@ def count_intent_handler(intent_request, session_attributes):
 
     if slot_values.get("dimension") is not None:
         entity_name = userexits.pre_process_query_value(
-            "dimension", slot_values["dimension"]
+            "dimension", bibot.DIMENSIONS.get(slot_values.get('dimension')).get('column')
         )
         entity_id = userexits.pre_process_query_value(
             "entity_id", slot_values["entity_id"]
