@@ -60,7 +60,7 @@
         "maxAttempts": 2,
         "messages": [
           {
-            "content": "The year of the event",
+            "content": "Please enter the year of the event",
             "contentType": "PlainText"
           }
         ]
@@ -77,7 +77,7 @@
         "maxAttempts": 2,
         "messages": [
           {
-            "content": "dimension",
+            "content": "Please enter a dimension",
             "contentType": "PlainText"
           }
         ]
@@ -94,7 +94,7 @@
         "maxAttempts": 2,
         "messages": [
           {
-            "content": "entity_id",
+            "content": "Please enter an entity_id",
             "contentType": "PlainText"
           }
         ]

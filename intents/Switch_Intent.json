@@ -2,16 +2,16 @@
     "name": "Switch_Intent",
     "description": "Change the latest dimension value",
     "sampleUtterances": [
-      "And for {event_date}",
-      "And for {count}",
+      "And for date {event_date}",
+      "And for top {count}",
       "And for {dimension}",
-      "And for {entity_id}"
+      "And for id {entity_id}"
     ],
     "slots": [
         {
             "slotType": "AMAZON.NUMBER", 
             "name": "count", 
-            "slotConstraint": "Required", 
+            "slotConstraint": "Optional", 
             "valueElicitationPrompt": {
                 "maxAttempts": 2, 
                 "messages": [
@@ -27,7 +27,7 @@
         {
             "slotType": "dimensions", 
             "name": "dimension", 
-            "slotConstraint": "Required", 
+            "slotConstraint": "Optional", 
             "valueElicitationPrompt": {
                 "maxAttempts": 2, 
                 "messages": [

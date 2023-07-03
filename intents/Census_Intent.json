@@ -35,7 +35,7 @@
           "maxAttempts": 2,
           "messages": [
             {
-              "content": "The year of the event",
+              "content": "Please enter the  year of the event",
               "contentType": "PlainText"
             }
           ]
@@ -52,7 +52,7 @@
             "maxAttempts": 2, 
             "messages": [
                 {
-                    "content": "The namespace of the event", 
+                    "content": "Please enter the  namespace of the event", 
                     "contentType": "PlainText"
                 }
             ]
@@ -70,7 +70,7 @@
             "maxAttempts": 2, 
             "messages": [
                 {
-                    "content": "The namespace of the event", 
+                    "content": "Please enter the type of the event", 
                     "contentType": "PlainText"
                 }
             ]
