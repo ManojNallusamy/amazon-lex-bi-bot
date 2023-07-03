@@ -26,7 +26,7 @@ SLOT_CONFIG = {
     'entity_id': {'type': ORIGINAL_VALUE, 'remember': False},
     'event_date': {'type': ORIGINAL_VALUE, 'remember': True},
     'count': {'type': ORIGINAL_VALUE, 'remember': True},
-    'dimension': {'type': ORIGINAL_VALUE, 'remember': False},
+    'dimension': {'type': ORIGINAL_VALUE, 'remember': True},
 }
 
 DIMENSIONS = {
